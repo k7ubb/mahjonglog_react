@@ -1,0 +1,36 @@
+.menuBar {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+	background: var(--color-background2);
+  border-top: 1px solid var(--color-lightgray);
+}
+
+.menuBarIcon {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 60%;
+  color: var(--color-main);
+}
+
+.menuBarIcon:hover {
+  color: var(--color-gray);
+}
+
+.now {
+  color: var(--color-accent);
+}
+
+.menuBarIcon span {
+  display: block;
+}
+
+.menuBarIcon svg {
+  width: 48px;
+  height: 48px;
+}

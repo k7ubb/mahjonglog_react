@@ -1,0 +1,23 @@
+.accountProfile {
+  display: flex;
+  margin-bottom: 32px;
+  gap: 16px;
+}
+
+.avater {
+  width: 100px;
+  height: 100px;
+}
+
+.text {
+  padding-top: 24px;
+}
+
+.text p {
+  margin: 0;
+}
+
+.accountId {
+  font-size: 80%;
+  color: var(--color-gray);
+}
