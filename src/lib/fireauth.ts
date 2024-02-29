@@ -3,6 +3,7 @@ import { FirebaseApp } from 'lib/firebase';
 import { firestoreSet } from 'lib/firestore';
 
 const app = FirebaseApp;
+console.log(app);
 
 export const fireauthSignup = async (email: string, password: string, accountId: string, accountName: string) => {
   const userCredential = await createUserWithEmailAndPassword(getAuth(), email, password);
